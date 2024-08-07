@@ -3,10 +3,12 @@ import { BrowserModule } from '@angular/platform-browser';
 import { FormsModule } from '@angular/forms'; // Importação necessária
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
+import { ImcCalculoComponent } from './imc/imc-calculo/imc-calculo.component';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    ImcCalculoComponent
   ],
   imports: [
     BrowserModule,
